@@ -1,0 +1,75 @@
+/* Full-page centered layout with a modern bluish gradient */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    animation: gradientShift 6s infinite alternate ease-in-out;
+}
+
+/* Dynamic animated gradient background */
+@keyframes gradientShift {
+    from { background: linear-gradient(135deg, #1e3c72, #2a5298); }
+    to { background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); }
+}
+
+/* Modern glass effect for the card */
+.home-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    animation: fadeIn 1s ease-in-out;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Smooth fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Elegant heading */
+.home-card h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
+    margin-bottom: 15px;
+}
+
+/* Subtext */
+.home-card p {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 25px;
+}
+
+/* Stylish button with a glowing hover effect */
+.home-button {
+    padding: 14px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+/* Hover effect with a soft glow */
+.home-button:hover {
+    background: linear-gradient(45deg, #38ef7d, #11998e);
+    transform: scale(1.07);
+    box-shadow: 0px 6px 20px rgba(56, 239, 125, 0.6);
+}

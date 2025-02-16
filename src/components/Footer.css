@@ -1,0 +1,72 @@
+/* ===========================
+   ✅ SERVICES PAGE FULL-WIDTH FIX
+   =========================== */
+   .services {
+    width: 100vw;  /* Ensures full width */
+    min-height: 100vh;  /* Ensures full height */
+    padding: 2em 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content */
+    align-items: center;
+    /* background: linear-gradient(to right, #4facfe, #00f2fe);  */
+}
+
+/* Header Styling */
+.services h1 {
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* List Styling */
+.services ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+    background: rgba(255, 255, 255, 0.2); /* Subtle glass effect */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.services li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    color: white;
+}
+
+/* ===========================
+   ✅ FOOTER FULL-WIDTH FIX
+   =========================== */
+.footer {
+    width: 100vw;  /* Ensures full width */
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+    margin-top: auto;
+}
+
+/* Footer Container - Centered Content */
+.footer .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ===========================
+   ✅ PAGE WRAPPER FIX (Pushes Footer Down)
+   =========================== */
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures full screen height */
+}
+
+.main-content {
+    flex: 1; /* Pushes footer to bottom */
+}

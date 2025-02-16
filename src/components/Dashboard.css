@@ -1,0 +1,15 @@
+.dashboard {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}

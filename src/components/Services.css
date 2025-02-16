@@ -1,0 +1,29 @@
+/* ===========================
+   ✅ FULL-WIDTH FOOTER FIX (Services Page)
+   =========================== */
+   .services {
+    padding: 2em 0;
+    text-align: center;
+    min-height: 80vh; /* Pushes the footer down */
+}
+
+/* Header Styling */
+.services h1 {
+    font-size: 2.5em;
+    color: #4caf50;
+}
+
+/* List Styling */
+.services ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.services li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    color: #555;
+}
+
+

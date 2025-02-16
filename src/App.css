@@ -1,0 +1,68 @@
+/* General Layout */
+main {
+  padding: 2em 0;
+  min-height: 70vh; /* Ensures main content covers enough vertical space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 1em;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+/* Buttons */
+button {
+  display: inline-block;
+  padding: 0.7em 1.5em;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+      padding: 1em;
+  }
+
+  button {
+      width: 100%; /* Buttons take full width on smaller screens */
+      max-width: 300px;
+  }
+}
+
+
+
+/* Add to your App.css */
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
