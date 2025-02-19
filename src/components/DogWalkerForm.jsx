@@ -155,17 +155,7 @@ const DogWalkerForm = ({ onSubmit, initialData }) => {
           </button>
         </form>
       </div>
-      <div className="registered-data">
-        <h2>Entered Dog Walker Data</h2>
-        <div>Name:{formData.name}</div>
-        <div>Bio:{formData.bio}</div>
-        <div>Experience:{formData.experience}</div>
-        <div>Certification:{formData.certifications}</div>
-        <div>Pricing:{formData.pricing}rupees/hr</div>
-        <div>Availability:{formData.availability}</div>
-        <div>Rating:{formData.rating}⭐</div>
-        <div>Specialities:{formData.specialties.join(', ')}</div>
-      </div>
+      
     </div>
   );
 };
